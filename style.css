@@ -1,0 +1,90 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f1f5f9;
+    color: #333;
+}
+
+header {
+    background: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 35px;
+}
+
+/* Sticky Navigation */
+.navbar {
+    position: sticky;
+    top: 0;
+    background: #2563eb;
+    padding: 18px;
+    text-align: center;
+    z-index: 100;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+/* Sections */
+section {
+    min-height: 350px;
+    padding: 60px 30px;
+    text-align: center;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+/* Card */
+.card {
+    position: relative;
+    background: white;
+    max-width: 350px;
+    margin: 30px auto;
+    padding: 50px 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px #0002;
+}
+
+/* Absolute Badge */
+.badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #ef4444;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    z-index: 2;
+}
+
+/* Fixed Floating Button */
+.floating-btn {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background: #16a34a;
+    color: white;
+    padding: 15px 22px;
+    border-radius: 30px;
+    text-decoration: none;
+    z-index: 200;
+}
+
+footer {
+    background: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
